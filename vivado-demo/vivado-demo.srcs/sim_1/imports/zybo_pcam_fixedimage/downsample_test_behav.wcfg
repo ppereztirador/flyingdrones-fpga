@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="downsample_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="downsample_test" />
+            <top_module name="glbl" />
+            <top_module name="lhe_lib" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3860920fs"></ZoomStartTime>
+      <ZoomEndTime time="3861017fs"></ZoomEndTime>
+      <Cursor1Time time="3861000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="64"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/downsample_test/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/ready_i">
+      <obj_property name="ElementShortName">ready_i</obj_property>
+      <obj_property name="ObjectShortName">ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/PRH_i">
+      <obj_property name="ElementShortName">PRH_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRH_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/PRV_i">
+      <obj_property name="ElementShortName">PRV_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRV_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/valid_pr_i">
+      <obj_property name="ElementShortName">valid_pr_i</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/Y_i">
+      <obj_property name="ElementShortName">Y_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/switch_y_ds_o">
+      <obj_property name="ElementShortName">switch_y_ds_o</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/DS_o">
+      <obj_property name="ElementShortName">DS_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DS_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/addr_w_ds_o">
+      <obj_property name="ElementShortName">addr_w_ds_o[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_w_ds_o[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/switch_ds_hle_i">
+      <obj_property name="ElementShortName">switch_ds_hle_i</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prh_array">
+      <obj_property name="ElementShortName">prh_array[15:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">prh_array[15:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prv_array">
+      <obj_property name="ElementShortName">prv_array[15:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">prv_array[15:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prh_pos_w">
+      <obj_property name="ElementShortName">prh_pos_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prh_pos_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prh_pos_r">
+      <obj_property name="ElementShortName">prh_pos_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prh_pos_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prv_pos_w">
+      <obj_property name="ElementShortName">prv_pos_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prv_pos_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/prv_pos_r">
+      <obj_property name="ElementShortName">prv_pos_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prv_pos_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/test_inst/first_pr_arrived">
+      <obj_property name="ElementShortName">first_pr_arrived</obj_property>
+      <obj_property name="ObjectShortName">first_pr_arrived</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/addr_r_ds_line">
+      <obj_property name="ElementShortName">addr_r_ds_line[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_ds_line[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/test_inst/addr_r_ds_pixel">
+      <obj_property name="ElementShortName">addr_r_ds_pixel[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_ds_pixel[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/downsample_test/addr_r_ds_o">
+      <obj_property name="ElementShortName">addr_r_ds_o[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_ds_o[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/downsample_test/test_inst/dsh_state_current">
+      <obj_property name="ElementShortName">dsh_state_current</obj_property>
+      <obj_property name="ObjectShortName">dsh_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/downsample_test/test_inst/dsh_state_next">
+      <obj_property name="ElementShortName">dsh_state_next</obj_property>
+      <obj_property name="ObjectShortName">dsh_state_next</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/test_inst/pixel_read">
+      <obj_property name="ElementShortName">pixel_read</obj_property>
+      <obj_property name="ObjectShortName">pixel_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/test_inst/pixelh_last">
+      <obj_property name="ElementShortName">pixelh_last</obj_property>
+      <obj_property name="ObjectShortName">pixelh_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/downsample_test/test_inst/pixelh_calculated">
+      <obj_property name="ElementShortName">pixelh_calculated</obj_property>
+      <obj_property name="ObjectShortName">pixelh_calculated</obj_property>
+   </wvobject>
+</wave_config>

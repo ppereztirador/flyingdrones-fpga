@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pr_big_test_blocks_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lhe_lib" />
+            <top_module name="pr_big_test_blocks" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1834957000fs"></ZoomStartTime>
+      <ZoomEndTime time="2568957001fs"></ZoomEndTime>
+      <Cursor1Time time="2445957000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/im_inst/image_dout">
+      <obj_property name="ElementShortName">image_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_dout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/valid_start">
+      <obj_property name="ElementShortName">valid_start</obj_property>
+      <obj_property name="ObjectShortName">valid_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/user_start">
+      <obj_property name="ElementShortName">user_start</obj_property>
+      <obj_property name="ObjectShortName">user_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/last_start">
+      <obj_property name="ElementShortName">last_start</obj_property>
+      <obj_property name="ObjectShortName">last_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/data_image">
+      <obj_property name="ElementShortName">data_image[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_image[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/pr_inst/valid_prh_o">
+      <obj_property name="ElementShortName">valid_prh_o</obj_property>
+      <obj_property name="ObjectShortName">valid_prh_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/pr_inst/valid_prv_o">
+      <obj_property name="ElementShortName">valid_prv_o</obj_property>
+      <obj_property name="ObjectShortName">valid_prv_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/pr_inst/PRh_o">
+      <obj_property name="ElementShortName">PRh_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRh_o[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/pr_inst/PRv_o">
+      <obj_property name="ElementShortName">PRv_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRv_o[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/ds_inst/valid_i">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/ds_inst/valid_pr_i">
+      <obj_property name="ElementShortName">valid_pr_i</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ds_inst/switch_ds_hle_vector">
+      <obj_property name="ElementShortName">switch_ds_hle_vector[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_vector[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/num_block">
+      <obj_property name="ElementShortName">num_block[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider335" type="divider">
+      <obj_property name="label">block mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ds_inst/\block_gen(1)\/block_inst/bk_mem_inst/num_pixel_i">
+      <obj_property name="ElementShortName">num_pixel_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ds_inst/\block_gen(1)\/block_inst/bk_mem_inst/num_line_i">
+      <obj_property name="ElementShortName">num_line_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_line_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider362" type="divider">
+      <obj_property name="label">downsampling</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/ds_inst/\block_gen(1)\/block_inst/bk_ds_inst/switch_y_ds_o">
+      <obj_property name="ElementShortName">switch_y_ds_o</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ds_inst/\block_gen(1)\/block_inst/bk_ds_inst/addr_r_ds_u">
+      <obj_property name="ElementShortName">addr_r_ds_u[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_ds_u[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/ds_inst/\block_gen(0)\/block_inst/bk_ds_inst/switch_ds_hle_o">
+      <obj_property name="ElementShortName">switch_ds_hle_o</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ds_inst/addr_r_hle_i">
+      <obj_property name="ElementShortName">addr_r_hle_i[15:0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_hle_i[15:0][10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2002" type="divider">
+      <obj_property name="label">HLE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/valid_i">
+      <obj_property name="ElementShortName">valid_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_i[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/first_luma_i">
+      <obj_property name="ElementShortName">first_luma_i[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">first_luma_i[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/ppp_i">
+      <obj_property name="ElementShortName">ppp_i[15:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ppp_i[15:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/sw_i">
+      <obj_property name="ElementShortName">sw_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/num_block_i">
+      <obj_property name="ElementShortName">num_block_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/first_luma_o">
+      <obj_property name="ElementShortName">first_luma_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">first_luma_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/ppp_o">
+      <obj_property name="ElementShortName">ppp_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ppp_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/di_mem">
+      <obj_property name="ElementShortName">di_mem[11:0]</obj_property>
+      <obj_property name="ObjectShortName">di_mem[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/do_mem">
+      <obj_property name="ElementShortName">do_mem[11:0]</obj_property>
+      <obj_property name="ObjectShortName">do_mem[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/waddr_mem">
+      <obj_property name="ElementShortName">waddr_mem[9:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_mem[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/raddr_mem">
+      <obj_property name="ElementShortName">raddr_mem[9:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr_mem[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/we_mem">
+      <obj_property name="ElementShortName">we_mem[1:0]</obj_property>
+      <obj_property name="ObjectShortName">we_mem[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/waddr_u">
+      <obj_property name="ElementShortName">waddr_u[9:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_u[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/info_inst/reset_mem">
+      <obj_property name="ElementShortName">reset_mem</obj_property>
+      <obj_property name="ObjectShortName">reset_mem</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/first_luma_current">
+      <obj_property name="ElementShortName">first_luma_current[7:0]</obj_property>
+      <obj_property name="ObjectShortName">first_luma_current[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/ppp_current">
+      <obj_property name="ElementShortName">ppp_current[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ppp_current[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/valid_filtered">
+      <obj_property name="ElementShortName">valid_filtered[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_filtered[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_blocks/info_inst/valid_current">
+      <obj_property name="ElementShortName">valid_current</obj_property>
+      <obj_property name="ObjectShortName">valid_current</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/info_inst/waddr_u_max">
+      <obj_property name="ElementShortName">waddr_u_max[9:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_u_max[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_blocks/ready_hop_row">
+      <obj_property name="ElementShortName">ready_hop_row[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ready_hop_row[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

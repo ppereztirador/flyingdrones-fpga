@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fixed_image_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fixed_image_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11991984fs"></ZoomStartTime>
+      <ZoomEndTime time="12059885fs"></ZoomEndTime>
+      <Cursor1Time time="6534584fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fixed_image_test/test_inst/s_axis_video_tdata">
+      <obj_property name="ElementShortName">s_axis_video_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/s_axis_video_tvalid">
+      <obj_property name="ElementShortName">s_axis_video_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/s_axis_video_tready">
+      <obj_property name="ElementShortName">s_axis_video_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/s_axis_video_tuser">
+      <obj_property name="ElementShortName">s_axis_video_tuser</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/s_axis_video_tlast">
+      <obj_property name="ElementShortName">s_axis_video_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fixed_image_test/test_inst/m_axis_video_tdata">
+      <obj_property name="ElementShortName">m_axis_video_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/m_axis_video_tvalid">
+      <obj_property name="ElementShortName">m_axis_video_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/m_axis_video_tready">
+      <obj_property name="ElementShortName">m_axis_video_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/m_axis_video_tuser">
+      <obj_property name="ElementShortName">m_axis_video_tuser</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/m_axis_video_tlast">
+      <obj_property name="ElementShortName">m_axis_video_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fixed_image_test/test_inst/image_addr">
+      <obj_property name="ElementShortName">image_addr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">image_addr[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fixed_image_test/test_inst/image_dout">
+      <obj_property name="ElementShortName">image_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fixed_image_test/test_inst/image_addr_un">
+      <obj_property name="ElementShortName">image_addr_un[18:0]</obj_property>
+      <obj_property name="ObjectShortName">image_addr_un[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/global_ce">
+      <obj_property name="ElementShortName">global_ce</obj_property>
+      <obj_property name="ObjectShortName">global_ce</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/tuser_reg1">
+      <obj_property name="ElementShortName">tuser_reg1</obj_property>
+      <obj_property name="ObjectShortName">tuser_reg1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/tuser_reg2">
+      <obj_property name="ElementShortName">tuser_reg2</obj_property>
+      <obj_property name="ObjectShortName">tuser_reg2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/tlast_reg1">
+      <obj_property name="ElementShortName">tlast_reg1</obj_property>
+      <obj_property name="ObjectShortName">tlast_reg1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/tlast_reg2">
+      <obj_property name="ElementShortName">tlast_reg2</obj_property>
+      <obj_property name="ObjectShortName">tlast_reg2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/globalce_reg1">
+      <obj_property name="ElementShortName">globalce_reg1</obj_property>
+      <obj_property name="ObjectShortName">globalce_reg1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fixed_image_test/test_inst/globalce_reg2">
+      <obj_property name="ElementShortName">globalce_reg2</obj_property>
+      <obj_property name="ObjectShortName">globalce_reg2</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dummyFifoWrite_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dummyFifoWrite_test" />
+            <top_module name="glbl" />
+            <top_module name="lhe_lib" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="823001fs"></ZoomEndTime>
+      <Cursor1Time time="261000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="logic" fp_name="/dummyFifoWrite_test/test_inst/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dummyFifoWrite_test/test_inst/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/test_inst/data_o">
+      <obj_property name="ElementShortName">data_o[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0][3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/test_inst/write_o">
+      <obj_property name="ElementShortName">write_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_o[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/test_inst/counter_data_u">
+      <obj_property name="ElementShortName">counter_data_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_data_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/test_inst/delay_u">
+      <obj_property name="ElementShortName">delay_u[3:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_u[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1867" type="divider">
+      <obj_property name="label">hop</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/hop_i">
+      <obj_property name="ElementShortName">hop_i[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">hop_i[7:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/valid_hop_i">
+      <obj_property name="ElementShortName">valid_hop_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_hop_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/read_addr_i">
+      <obj_property name="ElementShortName">read_addr_i[14:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_i[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/hop_read_o">
+      <obj_property name="ElementShortName">hop_read_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hop_read_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dummyFifoWrite_test/hop_inst/fifo_empty_o">
+      <obj_property name="ElementShortName">fifo_empty_o</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/valid_reg">
+      <obj_property name="ElementShortName">valid_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/hop_reg">
+      <obj_property name="ElementShortName">hop_reg[7:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">hop_reg[7:0][3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dummyFifoWrite_test/hop_inst/fifo_write">
+      <obj_property name="ElementShortName">fifo_write</obj_property>
+      <obj_property name="ObjectShortName">fifo_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dummyFifoWrite_test/hop_inst/fifo_reset">
+      <obj_property name="ElementShortName">fifo_reset</obj_property>
+      <obj_property name="ObjectShortName">fifo_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/fifo_data">
+      <obj_property name="ElementShortName">fifo_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dummyFifoWrite_test/hop_inst/current_block">
+      <obj_property name="ElementShortName">current_block[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_block[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/dummyFifoWrite_test/hop_inst/arb_state_current">
+      <obj_property name="ElementShortName">arb_state_current</obj_property>
+      <obj_property name="ObjectShortName">arb_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/dummyFifoWrite_test/hop_inst/arb_state_next">
+      <obj_property name="ElementShortName">arb_state_next</obj_property>
+      <obj_property name="ObjectShortName">arb_state_next</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/dummyFifoWrite_test/hop_inst/NUMBER_MEMORIES">
+      <obj_property name="ElementShortName">NUMBER_MEMORIES</obj_property>
+      <obj_property name="ObjectShortName">NUMBER_MEMORIES</obj_property>
+   </wvobject>
+</wave_config>

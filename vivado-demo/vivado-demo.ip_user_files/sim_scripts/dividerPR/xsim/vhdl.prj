@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../zybo_pcam_fixedimage.srcs/sources_1/ip/dividerPR/sim/dividerPR.vhd" \
+
+nosort
