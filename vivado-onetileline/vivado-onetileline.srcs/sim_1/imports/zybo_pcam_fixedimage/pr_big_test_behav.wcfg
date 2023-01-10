@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pr_big_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lhe_lib" />
+            <top_module name="pr_big_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="15240000001fs"></ZoomEndTime>
+      <Cursor1Time time="20303fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="97" />
+   <wvobject type="logic" fp_name="/pr_big_test/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/im_inst/m_axis_video_tdata">
+      <obj_property name="ElementShortName">m_axis_video_tdata[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tdata[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/data_block">
+      <obj_property name="ElementShortName">data_block[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_block[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/valid_block">
+      <obj_property name="ElementShortName">valid_block</obj_property>
+      <obj_property name="ObjectShortName">valid_block</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/user_block">
+      <obj_property name="ElementShortName">user_block</obj_property>
+      <obj_property name="ObjectShortName">user_block</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/last_block">
+      <obj_property name="ElementShortName">last_block</obj_property>
+      <obj_property name="ObjectShortName">last_block</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_pixel_o">
+      <obj_property name="ElementShortName">num_pixel_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_pixel_full_o">
+      <obj_property name="ElementShortName">num_pixel_full_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_full_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_line_o">
+      <obj_property name="ElementShortName">num_line_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_line_o[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_block_o">
+      <obj_property name="ElementShortName">num_block_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_block_v_o">
+      <obj_property name="ElementShortName">num_block_v_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_v_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_pixel_adv_o">
+      <obj_property name="ElementShortName">num_pixel_adv_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_adv_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/block_inst/num_block_adv_o">
+      <obj_property name="ElementShortName">num_block_adv_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_adv_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider772" type="divider">
+      <obj_property name="label">PR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/pr_inst/valid_prh_o">
+      <obj_property name="ElementShortName">valid_prh_o</obj_property>
+      <obj_property name="ObjectShortName">valid_prh_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/pr_inst/valid_prv_o">
+      <obj_property name="ElementShortName">valid_prv_o</obj_property>
+      <obj_property name="ObjectShortName">valid_prv_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider773" type="divider">
+      <obj_property name="label">HLE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/hle_inst_row/switch_ds_hle_i">
+      <obj_property name="ElementShortName">switch_ds_hle_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/hle_inst_row/valid_hop_o">
+      <obj_property name="ElementShortName">valid_hop_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_hop_o[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/hle_inst_row/hops_vector_o">
+      <obj_property name="ElementShortName">hops_vector_o[15:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">hops_vector_o[15:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/hle_inst_row/ppp_vector_o">
+      <obj_property name="ElementShortName">ppp_vector_o[15:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ppp_vector_o[15:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/hle_inst_row/luma_vector_o">
+      <obj_property name="ElementShortName">luma_vector_o[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">luma_vector_o[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider195" type="divider">
+      <obj_property name="label">Memory switch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/valid_i">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/ready_i">
+      <obj_property name="ElementShortName">ready_i</obj_property>
+      <obj_property name="ObjectShortName">ready_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/user_i">
+      <obj_property name="ElementShortName">user_i</obj_property>
+      <obj_property name="ObjectShortName">user_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/ready_hop_i">
+      <obj_property name="ElementShortName">ready_hop_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ready_hop_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/PRH_i">
+      <obj_property name="ElementShortName">PRH_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRH_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/PRV_i">
+      <obj_property name="ElementShortName">PRV_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRV_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/valid_pr_i">
+      <obj_property name="ElementShortName">valid_pr_i</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/num_block_pr_i">
+      <obj_property name="ElementShortName">num_block_pr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_pr_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/num_pixel_i">
+      <obj_property name="ElementShortName">num_pixel_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/num_line_i">
+      <obj_property name="ElementShortName">num_line_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_line_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/num_block_i">
+      <obj_property name="ElementShortName">num_block_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/Y_i">
+      <obj_property name="ElementShortName">Y_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/switch_ds_hle_o">
+      <obj_property name="ElementShortName">switch_ds_hle_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/addr_r_hle_i">
+      <obj_property name="ElementShortName">addr_r_hle_i[15:0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_hle_i[15:0][10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/DS_o">
+      <obj_property name="ElementShortName">DS_o[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DS_o[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/switch_ds_hle_internal">
+      <obj_property name="ElementShortName">switch_ds_hle_internal[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_internal[1:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/addr_r_hle_internal">
+      <obj_property name="ElementShortName">addr_r_hle_internal[15:0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_hle_internal[15:0][10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/DS_internal">
+      <obj_property name="ElementShortName">DS_internal[1:0][15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DS_internal[1:0][15:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/valid_pr_internal">
+      <obj_property name="ElementShortName">valid_pr_internal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_internal[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/ds_inst/memory_state_current">
+      <obj_property name="ElementShortName">memory_state_current</obj_property>
+      <obj_property name="ObjectShortName">memory_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/ds_inst/memory_state_next">
+      <obj_property name="ElementShortName">memory_state_next</obj_property>
+      <obj_property name="ObjectShortName">memory_state_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/memory_current_u">
+      <obj_property name="ElementShortName">memory_current_u[0:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_current_u[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/switch_y_ds">
+      <obj_property name="ElementShortName">switch_y_ds</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/switch_ds_hle">
+      <obj_property name="ElementShortName">switch_ds_hle</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/\mem_gen(1)\/mem_inst/\block_gen(0)\/block_inst/switch_y_ds">
+      <obj_property name="ElementShortName">switch_y_ds</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/\mem_gen(1)\/mem_inst/\block_gen(0)\/block_inst/switch_ds_hle">
+      <obj_property name="ElementShortName">switch_ds_hle</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2081" type="divider">
+      <obj_property name="label">test!!</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/ready_hop_i">
+      <obj_property name="ElementShortName">ready_hop_i</obj_property>
+      <obj_property name="ObjectShortName">ready_hop_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/switch_ds_hle_o">
+      <obj_property name="ElementShortName">switch_ds_hle_o</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/addr_r_hle_i">
+      <obj_property name="ElementShortName">addr_r_hle_i[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_hle_i[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/DS_o">
+      <obj_property name="ElementShortName">DS_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DS_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/valid_Y_internal">
+      <obj_property name="ElementShortName">valid_Y_internal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_Y_internal[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/valid_ds">
+      <obj_property name="ElementShortName">valid_ds</obj_property>
+      <obj_property name="ObjectShortName">valid_ds</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/switch_ds_hle">
+      <obj_property name="ElementShortName">switch_ds_hle</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/switch_y_ds_intermediate">
+      <obj_property name="ElementShortName">switch_y_ds_intermediate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_intermediate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/switch_ds_hle_intermediate">
+      <obj_property name="ElementShortName">switch_ds_hle_intermediate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle_intermediate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/addr_r_ds">
+      <obj_property name="ElementShortName">addr_r_ds[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r_ds[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/addr_w_ds">
+      <obj_property name="ElementShortName">addr_w_ds[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_w_ds[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/DS_result">
+      <obj_property name="ElementShortName">DS_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DS_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/memory_state_current">
+      <obj_property name="ElementShortName">memory_state_current</obj_property>
+      <obj_property name="ObjectShortName">memory_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/memory_state_next">
+      <obj_property name="ElementShortName">memory_state_next</obj_property>
+      <obj_property name="ObjectShortName">memory_state_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/memory_current_u">
+      <obj_property name="ElementShortName">memory_current_u[0:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_current_u[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/ds_state_current">
+      <obj_property name="ElementShortName">ds_state_current</obj_property>
+      <obj_property name="ObjectShortName">ds_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/ds_state_next">
+      <obj_property name="ElementShortName">ds_state_next</obj_property>
+      <obj_property name="ObjectShortName">ds_state_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/ds_current_u">
+      <obj_property name="ElementShortName">ds_current_u[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ds_current_u[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/mem_block_o">
+      <obj_property name="ElementShortName">mem_block_o</obj_property>
+      <obj_property name="ObjectShortName">mem_block_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider510" type="divider">
+      <obj_property name="label">0,0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/Y_i">
+      <obj_property name="ElementShortName">Y_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/write_en_a">
+      <obj_property name="ElementShortName">write_en_a[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_a[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/write_en_b">
+      <obj_property name="ElementShortName">write_en_b[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_b[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/addr_a">
+      <obj_property name="ElementShortName">addr_a[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/addr_b">
+      <obj_property name="ElementShortName">addr_b[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/Y_o">
+      <obj_property name="ElementShortName">Y_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/Y_mem">
+      <obj_property name="ElementShortName">Y_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(0)\/bk_mem_inst/switch_y_ds_i">
+      <obj_property name="ElementShortName">switch_y_ds_i</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/Y_i">
+      <obj_property name="ElementShortName">Y_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/write_en_a">
+      <obj_property name="ElementShortName">write_en_a[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_a[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/write_en_b">
+      <obj_property name="ElementShortName">write_en_b[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_b[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/addr_a">
+      <obj_property name="ElementShortName">addr_a[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/addr_b">
+      <obj_property name="ElementShortName">addr_b[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/Y_o">
+      <obj_property name="ElementShortName">Y_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/ds_inst/\mem_gen(0)\/mem_inst/\block_gen(0)\/block_inst/bk_mem_inst/switch_y_ds_i">
+      <obj_property name="ElementShortName">switch_y_ds_i</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_i</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/ds_state_current">
+      <obj_property name="ElementShortName">ds_state_current</obj_property>
+      <obj_property name="ObjectShortName">ds_state_current</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/pr_big_test/mmbk_test_inst/ds_state_next">
+      <obj_property name="ElementShortName">ds_state_next</obj_property>
+      <obj_property name="ObjectShortName">ds_state_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/ds_current_u">
+      <obj_property name="ElementShortName">ds_current_u[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ds_current_u[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/switch_y_ds">
+      <obj_property name="ElementShortName">switch_y_ds</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider512" type="divider">
+      <obj_property name="label">0,1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/Y_i">
+      <obj_property name="ElementShortName">Y_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/Y_o">
+      <obj_property name="ElementShortName">Y_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/write_en_a">
+      <obj_property name="ElementShortName">write_en_a[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_a[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/write_en_b">
+      <obj_property name="ElementShortName">write_en_b[0:0]</obj_property>
+      <obj_property name="ObjectShortName">write_en_b[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/addr_a">
+      <obj_property name="ElementShortName">addr_a[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/addr_b">
+      <obj_property name="ElementShortName">addr_b[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test/mmbk_test_inst/\bk_mem_gen(1)\/bk_mem_inst/switch_y_ds_i">
+      <obj_property name="ElementShortName">switch_y_ds_i</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds_i</obj_property>
+   </wvobject>
+</wave_config>

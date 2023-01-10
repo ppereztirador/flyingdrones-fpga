@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pr_big_test_gpio_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lhe_lib" />
+            <top_module name="pr_big_test_gpio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30732502510fs"></ZoomStartTime>
+      <ZoomEndTime time="47332502511fs"></ZoomEndTime>
+      <Cursor1Time time="41612502510fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/user_start">
+      <obj_property name="ElementShortName">user_start</obj_property>
+      <obj_property name="ObjectShortName">user_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/user_image">
+      <obj_property name="ElementShortName">user_image</obj_property>
+      <obj_property name="ObjectShortName">user_image</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/last_image">
+      <obj_property name="ElementShortName">last_image</obj_property>
+      <obj_property name="ObjectShortName">last_image</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/user_block">
+      <obj_property name="ElementShortName">user_block</obj_property>
+      <obj_property name="ObjectShortName">user_block</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/last_block">
+      <obj_property name="ElementShortName">last_block</obj_property>
+      <obj_property name="ObjectShortName">last_block</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/block_inst/Yi">
+      <obj_property name="ElementShortName">Yi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Yi[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/num_pixel">
+      <obj_property name="ElementShortName">num_pixel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/num_line">
+      <obj_property name="ElementShortName">num_line[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_line[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/num_pixel_full">
+      <obj_property name="ElementShortName">num_pixel_full[9:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_full[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/num_block_adv">
+      <obj_property name="ElementShortName">num_block_adv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_block_adv[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/num_pixel_adv">
+      <obj_property name="ElementShortName">num_pixel_adv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_pixel_adv[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/current_memblock_u">
+      <obj_property name="ElementShortName">current_memblock_u[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_memblock_u[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/ready_hop_row">
+      <obj_property name="ElementShortName">ready_hop_row[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ready_hop_row[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/valid_hop_row">
+      <obj_property name="ElementShortName">valid_hop_row[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_hop_row[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1381" type="divider">
+      <obj_property name="label">hop mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/valid_pr_i">
+      <obj_property name="ElementShortName">valid_pr_i</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/PRH_i">
+      <obj_property name="ElementShortName">PRH_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRH_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/PRV_i">
+      <obj_property name="ElementShortName">PRV_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PRV_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/valid_pr_filtered">
+      <obj_property name="ElementShortName">valid_pr_filtered</obj_property>
+      <obj_property name="ObjectShortName">valid_pr_filtered</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/valid_ds_i">
+      <obj_property name="ElementShortName">valid_ds_i</obj_property>
+      <obj_property name="ObjectShortName">valid_ds_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/valid_ds_filtered">
+      <obj_property name="ElementShortName">valid_ds_filtered</obj_property>
+      <obj_property name="ObjectShortName">valid_ds_filtered</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/ds_inst/\block_gen(0)\/block_inst/switch_y_ds">
+      <obj_property name="ElementShortName">switch_y_ds</obj_property>
+      <obj_property name="ObjectShortName">switch_y_ds</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/switch_ds_hle">
+      <obj_property name="ElementShortName">switch_ds_hle[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_ds_hle[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/hle_inst_row/valid_hop_o">
+      <obj_property name="ElementShortName">valid_hop_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_hop_o[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/hle_inst_row/ready_hop_o">
+      <obj_property name="ElementShortName">ready_hop_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ready_hop_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider442" type="divider">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/user_i">
+      <obj_property name="ElementShortName">user_i</obj_property>
+      <obj_property name="ObjectShortName">user_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/arm_i">
+      <obj_property name="ElementShortName">arm_i</obj_property>
+      <obj_property name="ObjectShortName">arm_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/current_memblock_u">
+      <obj_property name="ElementShortName">current_memblock_u[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_memblock_u[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/valid_reg">
+      <obj_property name="ElementShortName">valid_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/mem_block_reg">
+      <obj_property name="ElementShortName">mem_block_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_block_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/fifo_write">
+      <obj_property name="ElementShortName">fifo_write</obj_property>
+      <obj_property name="ObjectShortName">fifo_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/fifo_data">
+      <obj_property name="ElementShortName">fifo_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/reset_with_user">
+      <obj_property name="ElementShortName">reset_with_user</obj_property>
+      <obj_property name="ObjectShortName">reset_with_user</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/write_addr">
+      <obj_property name="ElementShortName">write_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/read_addr_i">
+      <obj_property name="ElementShortName">read_addr_i[14:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_i[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pr_big_test_gpio/hop_inst/mem_inst/hop_read_o">
+      <obj_property name="ElementShortName">hop_read_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">hop_read_o[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider479" type="divider">
+      <obj_property name="label">INFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
