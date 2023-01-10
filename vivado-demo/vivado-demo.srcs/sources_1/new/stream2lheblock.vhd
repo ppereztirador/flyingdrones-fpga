@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 10/20/2021 05:14:09 PM
 -- Design Name: 
--- Module Name: stream2hleblock - Behavioral
+-- Module Name: stream2lheblock - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -34,7 +34,7 @@ use IEEE.NUMERIC_STD.ALL;
 library WORK;
 use WORK.lhe_lib.ALL;
 
-entity stream2hleblock is
+entity stream2lheblock is
     Port ( clk_i : in STD_LOGIC;
            reset_i : in STD_LOGIC;
            demo_i : in STD_LOGIC;
@@ -62,9 +62,9 @@ entity stream2hleblock is
            num_pixel_adv_o : out STD_LOGIC_VECTOR(7 downto 0);
            num_block_adv_o : out STD_LOGIC_VECTOR(7 downto 0)
            );
-end stream2hleblock;
+end stream2lheblock;
 
-architecture Behavioral of stream2hleblock is
+architecture Behavioral of stream2lheblock is
     -- Attributes for clocks and resets (IP integrator)
     ATTRIBUTE X_INTERFACE_INFO : STRING; 
     ATTRIBUTE X_INTERFACE_INFO of clk_i: SIGNAL is "xilinx.com:signal:clock:1.0 clk_i CLK";

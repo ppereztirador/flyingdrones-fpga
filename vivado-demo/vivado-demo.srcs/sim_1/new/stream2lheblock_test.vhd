@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 10/21/2021 12:21:51 PM
 -- Design Name: 
--- Module Name: stream2hleblock_test - Behavioral
+-- Module Name: stream2lheblock_test - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,13 +31,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity stream2hleblock_test is
+entity stream2lheblock_test is
 --  Port ( );
-end stream2hleblock_test;
+end stream2lheblock_test;
 
-architecture Behavioral of stream2hleblock_test is
+architecture Behavioral of stream2lheblock_test is
 
-    component stream2hleblock is
+    component stream2lheblock is
         Port ( clk_i : in STD_LOGIC;
         reset_i : in STD_LOGIC;
         s_axis_video_tdata : in STD_LOGIC_VECTOR (23 downto 0);
@@ -82,7 +82,7 @@ architecture Behavioral of stream2hleblock_test is
     constant clk_period : time := 6 ns; 
 begin
 
-    test_inst: stream2hleblock
+    test_inst: stream2lheblock
     port map (
         clk_i => clk_i,
         reset_i => reset_i,

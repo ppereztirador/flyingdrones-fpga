@@ -57,7 +57,7 @@ constant clk_period : time := 6ns;
                -- Data to memory
                DS_o : out STD_LOGIC_VECTOR(7 downto 0);
                addr_w_ds_o : out STD_LOGIC_VECTOR(14 DOWNTO 0);
-               switch_ds_hle_i : out STD_LOGIC
+               switch_ds_lhe_i : out STD_LOGIC
                );
     end component;
     
@@ -72,7 +72,7 @@ constant clk_period : time := 6ns;
     signal switch_y_ds_o : STD_LOGIC;
     signal DS_o : STD_LOGIC_VECTOR(7 downto 0);
     signal addr_w_ds_o : STD_LOGIC_VECTOR(14 DOWNTO 0);
-    signal switch_ds_hle_i : STD_LOGIC;
+    signal switch_ds_lhe_i : STD_LOGIC;
     
     signal prh_u, prv_u : unsigned(2 downto 0);
 begin
@@ -97,7 +97,7 @@ begin
         -- Data to memory
         DS_o => DS_o,
         addr_w_ds_o => addr_w_ds_o,
-        switch_ds_hle_i => switch_ds_hle_i
+        switch_ds_lhe_i => switch_ds_lhe_i
     );
         
     -- clock and reset

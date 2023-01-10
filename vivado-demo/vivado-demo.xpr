@@ -100,22 +100,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/lhe_lib.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_extrablocks/zybo_pcam_extrablocks.srcs/sources_1/new/lhe_lib.vhd"/>
-          <Attr Name="ImportTime" Val="1639048232"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/stream2hleblock.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_extrablocks/zybo_pcam_extrablocks.srcs/sources_1/new/stream2hleblock.vhd"/>
-          <Attr Name="ImportTime" Val="1646846313"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/fixed_image.vhd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_fixedimage/zybo_pcam_fixedimage.srcs/sources_1/new/fixed_image.vhd"/>
@@ -128,6 +112,14 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_fixedimage/zybo_pcam_fixedimage.srcs/sources_1/new/gpio2sw.vhd"/>
           <Attr Name="ImportTime" Val="1673345260"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/lhe_lib.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_extrablocks/zybo_pcam_extrablocks.srcs/sources_1/new/lhe_lib.vhd"/>
+          <Attr Name="ImportTime" Val="1639048232"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -247,6 +239,12 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/stream2lheblock.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../proj/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/system.bd"/>
@@ -260,6 +258,15 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_fixedimage/zybo_pcam_fixedimage.srcs/sources_1/bd/system/hdl/system_wrapper.vhd"/>
           <Attr Name="ImportTime" Val="1648730009"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/stream2hleblock.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../lhe-vhdl/zybo_pcam_extrablocks/zybo_pcam_extrablocks.srcs/sources_1/new/stream2hleblock.vhd"/>
+          <Attr Name="ImportTime" Val="1646846313"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -481,6 +488,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sim_1/new/stream2lheblock_test.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="diff_division_test"/>
@@ -546,9 +560,9 @@
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design">
+          <Option Id="FlattenHierarchy">1</Option>
           <Option Id="Directive">0</Option>
           <Option Id="FsmExtraction">0</Option>
-          <Option Id="FlattenHierarchy">1</Option>
         </Step>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
