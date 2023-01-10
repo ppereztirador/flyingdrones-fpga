@@ -1,0 +1,98 @@
+11:20:16 **** Incremental Build of configuration Debug for project pcam_ethernet ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/platform/platform.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform/platform.d" -MT"src/platform/platform.o" -o "src/platform/platform.o" "../src/platform/platform.c"
+Finished building: ../src/platform/platform.c
+ 
+Building file: ../src/ov5640/OV5640.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/OV5640.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/ov5640/OV5640.d" -MT"src/ov5640/OV5640.o" -o "src/ov5640/OV5640.o" "../src/ov5640/OV5640.cpp"
+Finished building: ../src/ov5640/OV5640.cpp
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+In file included from ../src/udp_client.h:12,
+                 from ../src/main.cc:19:
+/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xtime_l.h:65:70: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |                                                                      ^
+../src/main.cc: In function 'void print_ip_settings(ip_addr_t*, ip_addr_t*, ip_addr_t*)':
+../src/main.cc:127:11: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  127 |  print_ip("Board IP: ", ip);
+      |           ^~~~~~~~~~~~
+../src/main.cc:128:11: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  128 |  print_ip("Netmask : ", mask);
+      |           ^~~~~~~~~~~~
+../src/main.cc:129:11: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  129 |  print_ip("Gateway : ", gw);
+      |           ^~~~~~~~~~~~
+../src/main.cc: In function 'int main()':
+../src/main.cc:161:12: warning: unused variable 'ipaddr' [-Wunused-variable]
+  161 |  ip_addr_t ipaddr, netmask, gw;
+      |            ^~~~~~
+../src/main.cc:161:20: warning: unused variable 'netmask' [-Wunused-variable]
+  161 |  ip_addr_t ipaddr, netmask, gw;
+      |                    ^~~~~~~
+../src/main.cc:161:29: warning: unused variable 'gw' [-Wunused-variable]
+  161 |  ip_addr_t ipaddr, netmask, gw;
+      |                             ^~
+Finished building: ../src/main.cc
+ 
+Building file: ../src/streamer.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/streamer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/streamer.d" -MT"src/streamer.o" -o "src/streamer.o" "../src/streamer.cpp"
+Finished building: ../src/streamer.cpp
+ 
+Building file: ../src/udp_client.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/udp_client.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/udp_client.d" -MT"src/udp_client.o" -o "src/udp_client.o" "../src/udp_client.c"
+In file included from ../src/udp_client.h:12,
+                 from ../src/udp_client.c:1:
+/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xtime_l.h:65:70: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |                                                                      ^
+../src/udp_client.c: In function 'void udp_packet_send(u8_t)':
+../src/udp_client.c:74:9: warning: unused variable 'diff_ms' [-Wunused-variable]
+   74 |   u64_t diff_ms = now - client.start_time;
+      |         ^~~~~~~
+../src/udp_client.c:36:7: warning: unused variable 'i' [-Wunused-variable]
+   36 |  u8_t i;
+      |       ^
+Finished building: ../src/udp_client.c
+ 
+Building file: ../src/udp_server.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/udp_server.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/udp_server.d" -MT"src/udp_server.o" -o "src/udp_server.o" "../src/udp_server.c"
+../src/udp_server.c: In function 'void pbuf_memcpy(pbuf*, const void*, u32)':
+../src/udp_server.c:37:33: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   37 |   memcpy(currentP->payload, data+byteIndex, bytesToCopy);
+      |                             ~~~~^~~~~~~~~~
+../src/udp_server.c: In function 'void udp_tdc_recv(void*, udp_pcb*, pbuf*, const ip_addr_t*, u16_t)':
+../src/udp_server.c:48:45: warning: variable 'bufferMeas' set but not used [-Wunused-but-set-variable]
+   48 |     u32 ii, jj, pointsRemaining, totalMeas, bufferMeas;
+      |                                             ^~~~~~~~~~
+../src/udp_server.c:51:11: warning: variable 'myE' set but not used [-Wunused-but-set-variable]
+   51 |     err_t myE;
+      |           ^~~
+Finished building: ../src/udp_server.c
+ 
+Building target: pcam_ethernet.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "pcam_ethernet.elf"  ./src/platform/platform.o  ./src/ov5640/OV5640.o  ./src/main.o ./src/streamer.o ./src/udp_client.o ./src/udp_server.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: pcam_ethernet.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size pcam_ethernet.elf  |tee "pcam_ethernet.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 716601	   3976	2152496	2873073	 2bd6f1	pcam_ethernet.elf
+Finished building: pcam_ethernet.elf.size
+ 
+
+11:20:18 Build Finished (took 2s.377ms)
+

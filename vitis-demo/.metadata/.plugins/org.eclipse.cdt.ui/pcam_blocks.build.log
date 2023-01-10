@@ -1,0 +1,22 @@
+12:19:39 **** Build of configuration Debug for project pcam_blocks ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/platform/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform/platform.d" -MT"src/platform/platform.o" -o "src/platform/platform.o" "../src/platform/platform.c"
+Finished building: ../src/platform/platform.c
+ 
+Building target: pcam_blocks.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_domain/bsplib/lib -o "pcam_blocks.elf"  ./src/platform/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ld.real: /home/pperez/vworkspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_domain/bsplib/lib/libxil.a(xil-crt0.o): in function `_start':
+/home/pperez/vworkspace/system_wrapper/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/standalone_v7_3/src/xil-crt0.S:115: undefined reference to `main'
+collect2.real: error: ld returned 1 exit status
+make[1]: *** [makefile:43: pcam_blocks.elf] Error 1
+make: *** [makefile:34: all] Error 2
+
+12:19:39 Build Finished (took 382ms)
+
