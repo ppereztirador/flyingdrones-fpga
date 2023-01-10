@@ -8,3 +8,6 @@ These projects work with Vivado and Vitis IDE version 2020.2 and the Digilent Zy
 ## File structure
 
 Each of the folders contains either a Vivado or Vitis project. Unpack to use.
+
+* `vivado-demo`: Vivado project and VHDL sources for the PR demo
+* `vitis-demo`: Vitis project and C sources for the PR demo
