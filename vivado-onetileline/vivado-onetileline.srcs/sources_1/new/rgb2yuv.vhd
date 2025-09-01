@@ -145,19 +145,7 @@ architecture Behavioral of rgb2yuv is
     -- Offset signals
     signal YU : unsigned(7 downto 0);
     signal YU_clipped : std_logic_vector(7 downto 0);
-    
-    attribute mark_debug : string;
---    attribute mark_debug of reset_i : signal is "true";
---    attribute mark_debug of s_axis_video_tdata : signal is "true";
---    attribute mark_debug of s_axis_video_tvalid : signal is "true";
---    attribute mark_debug of s_axis_video_tuser : signal is "true";
---    attribute mark_debug of s_axis_video_tlast : signal is "true";
---    attribute mark_debug of s_axis_video_tready : signal is "true";
---    attribute mark_debug of m_axis_video_tdata : signal is "true";
---    attribute mark_debug of m_axis_video_tvalid : signal is "true";
---    attribute mark_debug of m_axis_video_tuser : signal is "true";
---    attribute mark_debug of m_axis_video_tlast : signal is "true";
---    attribute mark_debug of m_axis_video_tready : signal is "true";
+
 begin
     -- Inputs
     Rin <= s_axis_video_tdata(23 downto 16);
@@ -253,7 +241,7 @@ begin
     begin
         if (rising_edge(clk_i)) then
             if (global_ce_shift = '1') then
-                YT <= YM + "0000000010000000"; --128
+                YT <= YM + to_unsigned(16, 16);
             end if;
         end if;
     end process;
