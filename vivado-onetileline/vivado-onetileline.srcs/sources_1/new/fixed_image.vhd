@@ -133,30 +133,41 @@ begin
 --        addra => image_addr,
 --        douta => image_dout
 --    );
-
     --- EXPERIMENTAL: GENERATE IMAGE BASED ON PIXEL POSITION
     --- BEHAVIOURALLY SUBSTITUTING THE BLK MEM
     image_proc: process(clk_i, image_addr_un)
-        variable num_high : unsigned(8 downto 0);
-        variable num_low : unsigned(9 downto 0);
-        variable im_val : unsigned(13 downto 0);
+--        variable num_high : unsigned(8 downto 0);
+--        variable num_low : unsigned(9 downto 0);
+--        variable im_val : unsigned(13 downto 0);
     begin
 --        num_high := image_addr_un(18 downto 10);
 --        num_low := image_addr_un(9 downto 0);
 --        im_val := ('0'&num_high) + num_low;
-        im_val := ("0"&image_addr_un(18 downto 6)) + ("00"&image_addr_un(18 downto 7));
+--        im_val := ("0"&image_addr_un(18 downto 6)) + ("00"&image_addr_un(18 downto 7));
 
         if (rising_edge(clk_i)) then
 --            image_dout <= std_logic_vector(im_val(9 downto 2));
-            if (x>to_unsigned(100,10) and x<to_unsigned(150,10) and y>to_unsigned(80,10) and y<to_unsigned(197,10)) then
-                if (x(1 downto 0)="00") then
-                    image_dout <= x"FF";
-                else
-                    image_dout <= x"00";
-                end if;
-            else
-                image_dout <= std_logic_vector(im_val(7 downto 0));
-            end if;
+--            if (x>to_unsigned(100,10) and x<to_unsigned(150,10) and y>to_unsigned(80,10) and y<to_unsigned(197,10)) then
+--                if (x(1 downto 0)="00") then
+--                    image_dout <= x"FF";
+--                else
+--                    image_dout <= x"00";
+--                end if;
+--            else
+--                image_dout <= std_logic_vector(im_val(7 downto 0));
+--            end if;
+
+--            -- CHECKERED
+--            if (x(0)='0' and y(1)='0') then
+--                image_dout <= x"FF";
+--            elsif (x(0)='1' and y(1)='1') then
+--                image_dout <= x"FF";
+--            else
+--                image_dout <= x"00";
+--            end if;
+
+              -- BLANK
+              image_dout <= x"00";
         end if;
     end process;
     ---
