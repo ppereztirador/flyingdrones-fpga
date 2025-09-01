@@ -11,3 +11,4 @@ Each of the folders contains either a Vivado or Vitis project. Unpack to use.
 
 * `vivado-demo`: Vivado project and VHDL sources for the PR demo
 * `vitis-demo`: Vitis project and C sources for the PR demo
+* `vivado-onetileline`: Vivado project for processing one line of tiles
