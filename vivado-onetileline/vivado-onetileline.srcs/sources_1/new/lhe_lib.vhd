@@ -21,24 +21,14 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 use IEEE.MATH_REAL.ALL;
 
 package lhe_lib is
 
     constant SIZE_BLOCK_H : integer := 40;
     constant SIZE_BLOCK_V : integer := 40;
-    constant SIZE_H_PX : integer := 640;
-    constant SIZE_V_PX : integer := 480;
+    constant SIZE_H_PX : integer := 640; -- 640 or 1280
+    constant SIZE_V_PX : integer := 480; -- 480 or 720
     constant FPS : integer:= 30;
     constant F_CLK : integer := 150000000;
     
