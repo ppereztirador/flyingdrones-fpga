@@ -21,15 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 library WORK;
 use WORK.lhe_lib.ALL;
@@ -62,6 +54,9 @@ end component;
 
 signal data_start : STD_LOGIC_VECTOR (23 downto 0);
 signal valid_start, ready_start, user_start, last_start : STD_LOGIC;
+
+signal data_start2 : STD_LOGIC_VECTOR (23 downto 0);
+signal valid_start2, ready_start2, user_start2, last_start2 : STD_LOGIC;
 
 signal data_image : STD_LOGIC_VECTOR (23 downto 0);
 signal valid_image, ready_image, user_image, last_image: STD_LOGIC;
@@ -204,6 +199,25 @@ begin
         s_axis_video_tready => ready_start,
         s_axis_video_tuser => user_start,
         s_axis_video_tlast => last_start,
+        
+        m_axis_video_tdata => data_start2,
+        m_axis_video_tvalid => valid_start2,
+        m_axis_video_tready => ready_start2,
+        m_axis_video_tuser => user_start2,
+        m_axis_video_tlast => last_start2
+    );
+    
+    im_inst2: fixed_image
+    port map (
+        clk_i => clk_i,
+        reset_i => reset_i,
+        demo_i => '0',
+        
+        s_axis_video_tdata => data_start2,
+        s_axis_video_tvalid => valid_start2,
+        s_axis_video_tready => ready_start2,
+        s_axis_video_tuser => user_start2,
+        s_axis_video_tlast => last_start2,
         
         m_axis_video_tdata => data_image,
         m_axis_video_tvalid => valid_image,
@@ -348,7 +362,7 @@ begin
         user_gen <= '1';
         wait for clk_period;
         user_gen <= '0';
-        wait for 33336237.06 ns;
+        wait for 33336237.06 ns-2*clk_period;
         user_gen <= '1';
         wait for clk_period;
         user_gen <= '0';
@@ -369,7 +383,8 @@ begin
         wait for clk_period;
         last_gen <= '0';
         --wait for 639*clk_period;
-        wait for 10427*clk_period;
+        wait for 10427*clk_period;--wait for 6945*clk_period;
+        
     end process;
     
     --valid_gen <= '1';
@@ -377,9 +392,9 @@ begin
     valid_proc: process
     begin
         valid_gen <= '1';
-        wait for 640*clk_period;
+        wait for 640*clk_period;-- For 720p: wait for 1280*clk_period;
         valid_gen <= '0';
-        wait for 9788*clk_period;
+        wait for 9788*clk_period;-- For 720p: wait for 5664*clk_period;
     end process;
 
 end Behavioral;
