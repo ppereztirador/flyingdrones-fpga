@@ -235,7 +235,15 @@ begin
    ram_reset <= not reset_i;
    data_we <= valid_i and ready_i;
    ram_we(0) <= data_we;
-   ram_address <= "0" & num_pixel_i(5 downto 0) & num_block_i(num_bits_numblock-1 downto 0);--"0" & num_pixel_i(5 downto 0) & num_block_i(num_bits_numblock-1 downto 0);
-   ram_address_adv <= "0" & num_pixel_adv_i(5 downto 0) & num_block_adv_i(num_bits_numblock-1 downto 0);--"0" & num_pixel_adv_i(5 downto 0) & num_block_adv_i(num_bits_numblock-1 downto 0);    
 
+   final_addr_proc: process(num_pixel_i, num_pixel_adv_i, num_pixel_adv_i, num_block_adv_i)
+   begin
+   if (SIZE_V_PX=480) then
+       ram_address <= "0" & num_pixel_i(5 downto 0) & num_block_i(num_bits_numblock-1 downto 0);
+       ram_address_adv <= "0" & num_pixel_adv_i(5 downto 0) & num_block_adv_i(num_bits_numblock-1 downto 0);
+   else
+       ram_address <= num_pixel_i(5 downto 0) & num_block_i(num_bits_numblock-1 downto 0);
+       ram_address_adv <= num_pixel_adv_i(5 downto 0) & num_block_adv_i(num_bits_numblock-1 downto 0);
+   end if;
+   end process;
 end Behavioral;
