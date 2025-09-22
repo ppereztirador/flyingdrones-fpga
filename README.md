@@ -12,3 +12,4 @@ Each of the folders contains either a Vivado or Vitis project. Unpack to use.
 * `vivado-demo`: Vivado project and VHDL sources for the PR demo
 * `vitis-demo`: Vitis project and C sources for the PR demo
 * `vivado-onetileline`: Vivado project for processing one line of tiles
+* `test-code`: Python and C code with an implementation of LHE. Includes functions to create and display test images, to test the encoding pipeline and to generate the hop look-up table.
